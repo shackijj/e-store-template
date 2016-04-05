@@ -1,0 +1,273 @@
+/* Caraules */
+
+#myCarousel{
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+	width: 80%;
+}
+
+.carousel-indicators > li {
+	text-align: left;
+	padding-top: 10%;
+	padding-left: 5%;
+	font-size: 1.2em;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+	.carousel-indicators > li {
+		font-size: 1em;
+	}
+}
+
+/* Colors */
+
+
+.raspberry { background-color: #bf4f79 !important;}
+.orange {background-color: #ef8742 !important; }
+.grean_tea {background-color: #9cbf3e !important; }
+.purple { background-color: #8869ca !important; }
+
+
+/* Bestsellers */
+
+.bestsellers-header {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.bestsellers-btn {
+	display: table;
+	width: 42px;
+	height: 42px;
+	border: 1px solid #ededed;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	z-index: 10;
+}
+
+.bestsellers-btn  > span {
+	display: table-cell;
+	vertical-align: middle;
+	z-index: 10;
+}
+
+.bestsellers-btn.left {
+	float: left;
+}
+
+.bestsellers-btn.right {
+	float: right;
+}
+
+h2 {
+  margin-top: 5px !important;
+  text-align: center;
+}
+h2.background {
+  position: relative;
+  z-index: 1;
+}
+h2.background:before {
+  border-top: 2px solid #dfdfdf;
+  content: "";
+  margin: 0 auto;
+  /* this centers the line to the full width specified */
+  position: absolute;
+  /* positioning must be absolute here, and relative positioning must be applied to the parent */
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+h2.background span {
+  /* to hide the lines from behind the text, you have to set the background color the same as the container */
+  background: rgb(243,243,243);
+  padding: 0 15px;
+}
+h2.double:before {
+  /* this is just to undo the :before styling from above */
+  border-top: none;
+}
+h2.double:after {
+  border-bottom: 1px solid #d7d7d7;
+  -webkit-box-shadow: 0 1px 0 0 #fff;
+  -moz-box-shadow: 0 1px 0 0 #fff;
+  box-shadow: 0 1px 0 0 #fff;
+  content: "";
+  margin: 0 auto;
+  /* this centers the line to the full width specified */
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+  width: 95%;
+  z-index: -1;
+}
+
+/* Goods */
+
+.good-container {
+	position: relative;
+	width: 100%;
+	border: 1px solid #ededed;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.good-photo {
+	height: 220px;
+	background-color: #f9f9f9;
+}
+
+.good-info {
+	height: 90px;
+	background-color: #fff;
+}
+
+.good-item-title {
+	font-size: 1.5em;
+	padding-left: 15px;
+}
+
+.good-item-title a {
+	color: #555;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.good-item-price {
+	display: inline-block;
+	width: 50%;
+	float: left;
+	font-size: 1.5em;
+	padding-left: 15px
+}
+
+.good-item-controls {
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+	height: 31px;
+}
+
+.good-detail-button {
+	width: 100px;
+	display: block;
+	padding: 6px;
+	vertical-align: middle;
+	background-color: #f9f9f9;
+	border: 1px solid #d7d7d7;
+	font-weight: bold;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.good-detail-button:hover {
+	background-color: #2799c9;
+	border-color: #2799c9;
+	color: #fff;
+}
+
+.catalog-sprite {
+    background-image: url(img/catalog-sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.catalog-sprite-badge {
+	position: absolute;
+	top: 15px;
+	right: -3px;
+}
+
+.sprite-eye {
+    width: 64px;
+    height: 40px;
+    background-position: -5px -5px;
+}
+
+.sprite-khit {
+    width: 60px;
+    height: 27px;
+    background-position: -5px -55px;
+}
+
+.sprite-novinka {
+    width: 60px;
+    height: 27px;
+    background-position: -79px -5px;
+}
+
+.sprite-skidka {
+    width: 60px;
+    height: 27px;
+    background-position: -79px -42px;
+}
+
+@media screen and (max-width: 1201px) {
+	.good-item-price { font-size: 1.4em;}
+	.good-item-title { font-size: 1.4em;}
+}
+
+@media screen and (max-width: 450px) {
+	.bestsellers-btn { display: none;}
+	h2.background span {
+		font-size: 0.8em;
+	}
+}
+
+/* Mail Form */
+
+.mail-form {
+	height: 250px;
+	background-color: #fff;
+	border: 1px solid #e1e1e1;
+	border-radius: 10px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#mail-colors {
+	background-image: url(img/mailform.png);
+	height: 3px;
+	text-align: center;
+}
+
+#mail-header {
+	height: 80px;
+	background-image: url(img/letter.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#mail-header  h3{
+	padding-top: 10px;
+	text-align: center;
+	color: #3c5569;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+#mail-header span {
+	display: block;
+	text-align: center;
+	font-style: italic;
+}
+
+.mail-form  form input {
+	margin-bottom: 10px;
+}
+
+.mail-form  form button {
+	width: 100%;
+}

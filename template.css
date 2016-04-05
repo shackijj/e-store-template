@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(243,243,243);
+}
+
+#header-colors {
+	background-image: url(img/colors.png);
+	height: 3px;
+}
+
+#logo-text { font-size: 1.8em !important; }
+
+#logo-img {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.top-header { margin-top: 30px;}
+
+.auth-block-container 		{ display: table; height: 42px; }
+.auth-block-text 			{ display: table-cell; vertical-align: middle; }
+.auth-button {color: #808080; cursor: pointer;}
+
+.small-cart { 
+	display: table; 
+	height: 42px; 
+	width: 100%;
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);	
+}
+
+.small-cart-content {
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center; 
+	width: 80%;
+	font-weight: bold;
+}
+
+.small-cart-button {
+	display: table-cell; 
+	vertical-align: middle; 
+	background-color: #ef8742;
+	color: #fff; 
+	border-top-right-radius: 5px; 
+	border-bottom-right-radius: 5px; 
+	text-align: center; 
+	width: 20%;
+	cursor: pointer;
+}
+
+.items-in-cart { color: #ef8742;}
+
+.navbar-inverse {
+	-moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+
+.footer-wrapper {
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #d7d7d7;
+	border-top: 1px solid #d7d7d7;
+	text-align: center;
+}
+
+.footer-nav {
+	margin: 25px 0px; 
+}
+
+.footer-nav li {
+	display: inline-block;
+	list-style-type: none;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+.fn-separator { color: #d4d4d4; padding: 10px; }
+
+.social-block {
+	border-top: 1px solid #d7d7d7;
+	position: relative;
+	text-align: center;
+	height: 42px;
+}
+
+.social-container {
+	position: absolute;
+	margin: 5px;
+	background-color: #fff;
+	position: absolute;
+	top: -15px;
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+	width: 200px;
+}
+
+.social-container i {
+	display: inline-block;
+}
+
+#copyright { font-size: 0.6em; color: grey; }
+
+.sprite {
+    background-image: url(img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-twiiter {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -5px;
+}
